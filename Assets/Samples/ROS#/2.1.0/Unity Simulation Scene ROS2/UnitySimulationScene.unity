@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1399,9 +1398,275 @@ Transform:
   - {fileID: 775080321}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2145743073
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1815158021167005104, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.x
+      value: 0.032
+      objectReference: {fileID: 0}
+    - target: {fileID: 1815158021167005104, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.y
+      value: 0.032
+      objectReference: {fileID: 0}
+    - target: {fileID: 1815158021167005104, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.z
+      value: 0.032
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866535522527950821, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.x
+      value: 0.00010849464
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866535522527950821, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.y
+      value: 0.0001102936
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866535522527950821, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.z
+      value: 0.000022441449
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866535522527950821, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensorRotation.w
+      value: -0.9861251
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866535522527950821, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensorRotation.x
+      value: 0.00042704106
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866535522527950821, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensorRotation.y
+      value: -0.16594414
+      objectReference: {fileID: 0}
+    - target: {fileID: 1866535522527950821, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensorRotation.z
+      value: 0.004428113
+      objectReference: {fileID: 0}
+    - target: {fileID: 2359184789960630437, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: m_Name
+      value: physics
+      objectReference: {fileID: 0}
+    - target: {fileID: 2439557086988677987, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 237f5c78c57b0f3bda805f03fef359ce, type: 2}
+    - target: {fileID: 2810519566453638991, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810519566453638991, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2810519566453638991, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992617938826226954, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.x
+      value: 0.00044602796
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992617938826226954, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.y
+      value: 0.00045156587
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992617938826226954, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.z
+      value: 0.000008941648
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992617938826226954, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensorRotation.w
+      value: -0.9994894
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992617938826226954, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensorRotation.x
+      value: -0.000020522668
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992617938826226954, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensorRotation.y
+      value: 0.031952098
+      objectReference: {fileID: 0}
+    - target: {fileID: 2992617938826226954, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensorRotation.z
+      value: 0.000025856847
+      objectReference: {fileID: 0}
+    - target: {fileID: 3363773728642086903, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 237f5c78c57b0f3bda805f03fef359ce, type: 2}
+    - target: {fileID: 3582532627193211816, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 237f5c78c57b0f3bda805f03fef359ce, type: 2}
+    - target: {fileID: 3758487661134042377, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758487661134042377, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758487661134042377, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445082121035719016, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445082121035719016, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445082121035719016, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445082121035719016, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445082121035719016, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445082121035719016, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445082121035719016, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445082121035719016, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445082121035719016, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4445082121035719016, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474907425212324716, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.x
+      value: 1.2333332
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474907425212324716, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.y
+      value: 0.041666657
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474907425212324716, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.z
+      value: 1.2083333
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474907425212324716, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensorRotation.x
+      value: -0.0000052997025
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474907425212324716, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensorRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474907425212324716, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensorRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305703212902434978, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305703212902434978, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6305703212902434978, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6932633583495487001, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 237f5c78c57b0f3bda805f03fef359ce, type: 2}
+    - target: {fileID: 7026878612507917240, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.x
+      value: 0.000108494634
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026878612507917240, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.y
+      value: 0.0001102936
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026878612507917240, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.z
+      value: 0.00002244145
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026878612507917240, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensorRotation.w
+      value: -0.98612523
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026878612507917240, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensorRotation.x
+      value: -0.0004347242
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026878612507917240, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensorRotation.y
+      value: 0.16594423
+      objectReference: {fileID: 0}
+    - target: {fileID: 7026878612507917240, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensorRotation.z
+      value: 0.00438306
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163652630772180165, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.x
+      value: 0.14166668
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163652630772180165, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.y
+      value: 0.14166668
+      objectReference: {fileID: 0}
+    - target: {fileID: 8163652630772180165, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.z
+      value: 0.01666667
+      objectReference: {fileID: 0}
+    - target: {fileID: 8542377042781769323, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8542377042781769323, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8542377042781769323, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802428325325645696, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802428325325645696, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8802428325325645696, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
+      propertyPath: InertiaTensor.z
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 92280749599a43628bd86d1ca02f4e38, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 2067438216}
   - {fileID: 1246482481}
+  - {fileID: 2145743073}

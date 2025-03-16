@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8163652630772180165}
   - component: {fileID: 3513660581618517399}
   - component: {fileID: 7331366839794664178}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: left_base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -74,7 +74,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -97,7 +97,7 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 10
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
+  InertiaTensor: {x: 0.14166668, y: 0.14166668, z: 0.01666667}
   InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
   UrdfMass: 10
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
@@ -144,7 +144,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8182267310409522706}
   - component: {fileID: 7220235379028357683}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 8766428020168343877}
   - component: {fileID: 8965972658185250249}
   - component: {fileID: 4698494297140176545}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -272,7 +272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 907120255421588450}
   - component: {fileID: 1206624438833728361}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3141169605119450372}
   - component: {fileID: 2915940797479786299}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -363,7 +363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1479025523226948604}
   - component: {fileID: 8782020528959724281}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -409,7 +409,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4500088226566887099}
   - component: {fileID: 3939433393602681063}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -454,7 +454,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2253599769452986010}
   - component: {fileID: 4419609641709322320}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -500,7 +500,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5585991185321810795}
   - component: {fileID: 3978888396493052054}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -551,7 +551,7 @@ GameObject:
   - component: {fileID: 7196947097651245255}
   - component: {fileID: 3663467645256244118}
   - component: {fileID: 4588696718878887328}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: right_gripper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -610,7 +610,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -633,8 +633,8 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 0.05
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
-  InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
+  InertiaTensor: {x: 0.00010849464, y: 0.0001102936, z: 0.000022441449}
+  InertiaTensorRotation: {x: 0.00042704106, y: -0.16594414, z: 0.004428113, w: -0.9861251}
   UrdfMass: 0.05
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
   UrdfInertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
@@ -731,7 +731,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2742478482555341805}
   - component: {fileID: 5458375434211405891}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -777,7 +777,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9046414617530051912}
   - component: {fileID: 4957610548051634774}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -822,7 +822,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6079262603923829677}
   - component: {fileID: 6995653418697099866}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -868,7 +868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7653933675731268051}
   - component: {fileID: 189222439132763010}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -914,7 +914,7 @@ GameObject:
   - component: {fileID: 1715647955020427749}
   - component: {fileID: 3157915141711749688}
   - component: {fileID: 7100758157366718785}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1001,7 +1001,7 @@ GameObject:
   - component: {fileID: 8546984692227634042}
   - component: {fileID: 2487774906416664309}
   - component: {fileID: 3170334406469884542}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: right_front_wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1059,7 +1059,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1082,7 +1082,7 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 1
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
+  InertiaTensor: {x: 1, y: 1, z: 1}
   InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
   UrdfMass: 1
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
@@ -1171,7 +1171,7 @@ GameObject:
   - component: {fileID: 2594677831298487742}
   - component: {fileID: 6961491164263856115}
   - component: {fileID: 2732919289205865467}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: left_gripper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1230,7 +1230,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1253,8 +1253,8 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 0.05
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
-  InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
+  InertiaTensor: {x: 0.000108494634, y: 0.0001102936, z: 0.00002244145}
+  InertiaTensorRotation: {x: -0.0004347242, y: 0.16594423, z: 0.00438306, w: -0.98612523}
   UrdfMass: 0.05
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
   UrdfInertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
@@ -1355,7 +1355,7 @@ GameObject:
   - component: {fileID: 741998367972223980}
   - component: {fileID: 2183975141297131399}
   - component: {fileID: 3834453655104193033}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: right_leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1414,7 +1414,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -1484,7 +1484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4108973780823259004}
   - component: {fileID: 8205896643440760918}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1529,7 +1529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8157636196581420352}
   - component: {fileID: 3389763621600597902}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1575,7 +1575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2184519371082927468}
   - component: {fileID: 8076998628273336941}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1620,7 +1620,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2964627963403363084}
   - component: {fileID: 1547674932634023689}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1673,7 +1673,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4445082121035719016}
   - component: {fileID: 1812572182333692354}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: physics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1720,7 +1720,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1364925042209782484}
   - component: {fileID: 853900420785485765}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1766,7 +1766,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3339874300995711260}
   - component: {fileID: 5290624951298480442}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1819,7 +1819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2772850097309412164}
   - component: {fileID: 4825241935198299833}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1864,7 +1864,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3165090559625565059}
   - component: {fileID: 5097129891205186149}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1917,7 +1917,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5436349973916976009}
   - component: {fileID: 8199399381341991943}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1963,7 +1963,7 @@ GameObject:
   - component: {fileID: 4350384197737224117}
   - component: {fileID: 2257989847440281770}
   - component: {fileID: 5393181510269828307}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2045,7 +2045,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5043710221264934403}
   - component: {fileID: 4272815786991014014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2091,7 +2091,7 @@ GameObject:
   - component: {fileID: 8437294014606076002}
   - component: {fileID: 3354181762865481393}
   - component: {fileID: 592630831349290756}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2174,7 +2174,7 @@ GameObject:
   - component: {fileID: 1217438322537502851}
   - component: {fileID: 1768258898130165210}
   - component: {fileID: 6667874210551204054}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2256,7 +2256,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6736261942713110322}
   - component: {fileID: 7275256734196701315}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2310,7 +2310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3848271837875852696}
   - component: {fileID: 3363773728642086903}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2339,7 +2339,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3606653282144820412}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 237f5c78c57b0f3bda805f03fef359ce, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2369,7 +2369,7 @@ GameObject:
   - component: {fileID: 4690803386014777328}
   - component: {fileID: 7809976786120057114}
   - component: {fileID: 111907550421671724}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: right_back_wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2427,7 +2427,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2450,7 +2450,7 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 1
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
+  InertiaTensor: {x: 1, y: 1, z: 1}
   InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
   UrdfMass: 1
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
@@ -2537,7 +2537,7 @@ GameObject:
   - component: {fileID: 1295846456535049728}
   - component: {fileID: 5343799097575633503}
   - component: {fileID: 4437040997869150355}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2595,7 +2595,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2665,7 +2665,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8047062907717310991}
   - component: {fileID: 80563564389244418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2710,7 +2710,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6127558851371539986}
   - component: {fileID: 6715494451801156128}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Sphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2763,7 +2763,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3499175742217030734}
   - component: {fileID: 6440477539225300857}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2809,7 +2809,7 @@ GameObject:
   m_Component:
   - component: {fileID: 212806001928759310}
   - component: {fileID: 794095914854962120}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2859,7 +2859,7 @@ GameObject:
   - component: {fileID: 2992617938826226954}
   - component: {fileID: 1654183785546113300}
   - component: {fileID: 1508580270658971881}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: left_tip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2917,7 +2917,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -2940,8 +2940,8 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 0.05
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
-  InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
+  InertiaTensor: {x: 0.00044602796, y: 0.00045156587, z: 0.000008941648}
+  InertiaTensorRotation: {x: -0.000020522668, y: 0.031952098, z: 0.000025856847, w: -0.9994894}
   UrdfMass: 0.05
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
   UrdfInertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
@@ -2992,7 +2992,7 @@ GameObject:
   - component: {fileID: 5164744429099817276}
   - component: {fileID: 195282835489950789}
   - component: {fileID: 7623511855464785496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: gripper_pole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3052,7 +3052,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -3075,7 +3075,7 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 0.05
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
+  InertiaTensor: {x: 1, y: 1, z: 1}
   InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
   UrdfMass: 0.05
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
@@ -3224,7 +3224,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5521272568233221990}
   - component: {fileID: 6583268069226619040}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3269,7 +3269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3124687565124784507}
   - component: {fileID: 4011889736503836309}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3320,7 +3320,7 @@ GameObject:
   - component: {fileID: 3745899632988176009}
   - component: {fileID: 6457284058886533610}
   - component: {fileID: 8991627044782814926}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: left_back_wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3378,7 +3378,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -3401,7 +3401,7 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 1
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
+  InertiaTensor: {x: 1, y: 1, z: 1}
   InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
   UrdfMass: 1
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
@@ -3484,7 +3484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4443760666450641058}
   - component: {fileID: 3604681041248532532}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3529,7 +3529,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2853595457928415580}
   - component: {fileID: 4972661856939839765}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3575,7 +3575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4203558125136700065}
   - component: {fileID: 8529675743622591107}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3628,7 +3628,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6882452993990836840}
   - component: {fileID: 6932633583495487001}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3657,7 +3657,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4556439024333160757}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 237f5c78c57b0f3bda805f03fef359ce, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3686,7 +3686,7 @@ GameObject:
   - component: {fileID: 6897229669247682515}
   - component: {fileID: 4567904206732221463}
   - component: {fileID: 8831752181245598414}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: right_tip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3744,7 +3744,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -3814,7 +3814,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6704979636419246774}
   - component: {fileID: 3582532627193211816}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3843,7 +3843,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4621791141648194667}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 237f5c78c57b0f3bda805f03fef359ce, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3868,7 +3868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4126356078181901863}
   - component: {fileID: 6418405687368937496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3913,7 +3913,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1014275344664787364}
   - component: {fileID: 4848421748946802537}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3967,7 +3967,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6045279889349682304}
   - component: {fileID: 3895733600418108343}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4013,7 +4013,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8283927628987507227}
   - component: {fileID: 4406468302054250205}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4064,7 +4064,7 @@ GameObject:
   - component: {fileID: 4186677969897241565}
   - component: {fileID: 2362330073355464326}
   - component: {fileID: 7667605530847146840}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: left_front_wheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4122,7 +4122,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4145,7 +4145,7 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 1
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
+  InertiaTensor: {x: 1, y: 1, z: 1}
   InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
   UrdfMass: 1
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
@@ -4228,7 +4228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5833670195509530132}
   - component: {fileID: 7829248621160468356}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4274,7 +4274,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6207302097884233937}
   - component: {fileID: 7725065881439855403}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4320,7 +4320,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5451012246012825228}
   - component: {fileID: 4451043671627449243}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4365,7 +4365,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4323909160486981583}
   - component: {fileID: 6192921677991718454}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4410,7 +4410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8643181120696601913}
   - component: {fileID: 5915165267228855159}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4460,7 +4460,7 @@ GameObject:
   - component: {fileID: 4474907425212324716}
   - component: {fileID: 2735024201648702014}
   - component: {fileID: 3003413444711458943}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: left_leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4519,7 +4519,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -4542,8 +4542,8 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 10
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
-  InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
+  InertiaTensor: {x: 1.2333332, y: 0.041666657, z: 1.2083333}
+  InertiaTensorRotation: {x: -0.0000052997025, y: 0, z: 0, w: 1}
   UrdfMass: 10
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
   UrdfInertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
@@ -4589,7 +4589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3527564110636555934}
   - component: {fileID: 159095497696240254}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4635,7 +4635,7 @@ GameObject:
   m_Component:
   - component: {fileID: 336465734471291992}
   - component: {fileID: 4978618177881365859}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4682,7 +4682,7 @@ GameObject:
   - component: {fileID: 6539874889866993555}
   - component: {fileID: 3916377037259312750}
   - component: {fileID: 2896062197625539563}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4764,7 +4764,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6185553314562790877}
   - component: {fileID: 5636076784808220583}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4811,7 +4811,7 @@ GameObject:
   - component: {fileID: 5799680056634969936}
   - component: {fileID: 7438915852496664768}
   - component: {fileID: 3607256376791452174}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4893,7 +4893,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5622190620705799325}
   - component: {fileID: 205823572489954502}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4938,7 +4938,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2149439511484060329}
   - component: {fileID: 7182957520624689703}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plugins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4983,7 +4983,7 @@ GameObject:
   - component: {fileID: 4459210807071601061}
   - component: {fileID: 4142207742257463778}
   - component: {fileID: 7532273675879931757}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5065,7 +5065,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3668206570280410812}
   - component: {fileID: 2422673281092613954}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5111,7 +5111,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4598065535295721632}
   - component: {fileID: 8414855112753887496}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5157,7 +5157,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6258782273698643445}
   - component: {fileID: 486121118577492337}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5206,7 +5206,7 @@ GameObject:
   - component: {fileID: 5591171131268110419}
   - component: {fileID: 6562819431676874344}
   - component: {fileID: 423707620440619578}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: right_base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5266,7 +5266,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5336,7 +5336,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6296147682280615282}
   - component: {fileID: 8161271543620592237}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5383,7 +5383,7 @@ GameObject:
   - component: {fileID: 16987041658574788}
   - component: {fileID: 3653603467121047274}
   - component: {fileID: 428118114127948389}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: base_link
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5423,7 +5423,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7ff3afc1d93fb0c468dcb37253b3ce4f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  IsBaseLink: 0
+  IsBaseLink: 1
 --- !u!54 &3653603467121047274
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5445,7 +5445,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -5485,7 +5485,7 @@ GameObject:
   - component: {fileID: 2405824807385897285}
   - component: {fileID: 5584358027591428400}
   - component: {fileID: 5569992969988958917}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5567,7 +5567,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5475736840528744270}
   - component: {fileID: 7894235273929893140}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5612,7 +5612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5794700482952515862}
   - component: {fileID: 1027821280763713363}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5658,7 +5658,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8627670824661276604}
   - component: {fileID: 5703635062649048565}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5704,7 +5704,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4267456347654961415}
   - component: {fileID: 2439557086988677987}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5733,7 +5733,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7430609788555537747}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 237f5c78c57b0f3bda805f03fef359ce, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -5758,7 +5758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3953325098174454753}
   - component: {fileID: 790128519985654575}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5804,7 +5804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3783739744055923799}
   - component: {fileID: 8676106415418453602}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5849,7 +5849,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2825762952610759663}
   - component: {fileID: 8982119211382909577}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5895,7 +5895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3960356987415295716}
   - component: {fileID: 8289719975295097488}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5941,7 +5941,7 @@ GameObject:
   - component: {fileID: 2495218247306735075}
   - component: {fileID: 855346914129606810}
   - component: {fileID: 3797079476233578922}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6023,7 +6023,7 @@ GameObject:
   m_Component:
   - component: {fileID: 770628868117224703}
   - component: {fileID: 5199450243129017467}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Box
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6076,7 +6076,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4636885832084922231}
   - component: {fileID: 3614267394552566497}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6121,7 +6121,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6347735105372709319}
   - component: {fileID: 4044813287232043289}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6167,7 +6167,7 @@ GameObject:
   m_Component:
   - component: {fileID: 271350399198351855}
   - component: {fileID: 1358148716239863835}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6213,7 +6213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 832998076258112223}
   - component: {fileID: 8367114571075663042}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6258,7 +6258,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5196672231975622705}
   - component: {fileID: 8062404738277309514}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6304,7 +6304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2888378828072127336}
   - component: {fileID: 7645638941574450282}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6350,7 +6350,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5318605071529547608}
   - component: {fileID: 1397432376832495807}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6395,7 +6395,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5738458873335626068}
   - component: {fileID: 8924166552044589035}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6441,7 +6441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4727912149280909777}
   - component: {fileID: 2029911202392576320}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6486,7 +6486,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2250112081031541868}
   - component: {fileID: 5385906923866088666}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6531,7 +6531,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2286401753655277802}
   - component: {fileID: 1632656209822833286}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6577,7 +6577,7 @@ GameObject:
   - component: {fileID: 1634632893268863690}
   - component: {fileID: 2772479846787690072}
   - component: {fileID: 6014778009236216804}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6659,7 +6659,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5012830075158938426}
   - component: {fileID: 981703331257404405}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6706,7 +6706,7 @@ GameObject:
   - component: {fileID: 2726767881276936394}
   - component: {fileID: 7156767294241714944}
   - component: {fileID: 524524432681012883}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6788,7 +6788,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6122273978179866684}
   - component: {fileID: 6166112740575222931}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: unnamed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6839,7 +6839,7 @@ GameObject:
   - component: {fileID: 3892660892405959110}
   - component: {fileID: 441689684366048932}
   - component: {fileID: 1953316256688541653}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6898,7 +6898,7 @@ Rigidbody:
     serializedVersion: 2
     m_Bits: 0
   m_ImplicitCom: 0
-  m_ImplicitTensor: 0
+  m_ImplicitTensor: 1
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -6921,7 +6921,7 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 2
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
+  InertiaTensor: {x: 0.032, y: 0.032, z: 0.032}
   InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
   UrdfMass: 2
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
@@ -7004,7 +7004,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5448132439211492172}
   - component: {fileID: 8607931150538757878}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Collisions
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7049,7 +7049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1325786893093539140}
   - component: {fileID: 3003935821636009915}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7094,7 +7094,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5647543931230862191}
   - component: {fileID: 6311128358894917604}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Visuals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7181,6 +7181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: l_finger_tip
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cbc31a08bbed344d89fce06e98b259a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -7511558181221131132, guid: cbc31a08bbed344d89fce06e98b259a4, type: 3}
     - {fileID: -5754084199372789682, guid: cbc31a08bbed344d89fce06e98b259a4, type: 3}
@@ -7215,7 +7219,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -1706859863224451047, guid: cbc31a08bbed344d89fce06e98b259a4, type: 3}
 --- !u!4 &3057846926448162952 stripped
@@ -7274,6 +7278,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 125b5fc25a566b4ce9cc63ba81bd5650, type: 3}
       propertyPath: m_Name
       value: l_finger
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 125b5fc25a566b4ce9cc63ba81bd5650, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7337,6 +7345,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: l_finger
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 125b5fc25a566b4ce9cc63ba81bd5650, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -7511558181221131132, guid: 125b5fc25a566b4ce9cc63ba81bd5650, type: 3}
     - {fileID: -5754084199372789682, guid: 125b5fc25a566b4ce9cc63ba81bd5650, type: 3}
@@ -7371,7 +7383,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1151293911155818299, guid: 125b5fc25a566b4ce9cc63ba81bd5650, type: 3}
 --- !u!4 &5547749197643170336 stripped
@@ -7430,6 +7442,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 125b5fc25a566b4ce9cc63ba81bd5650, type: 3}
       propertyPath: m_Name
       value: l_finger
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 125b5fc25a566b4ce9cc63ba81bd5650, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7493,6 +7509,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: l_finger_tip
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cbc31a08bbed344d89fce06e98b259a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -7511558181221131132, guid: cbc31a08bbed344d89fce06e98b259a4, type: 3}
     - {fileID: -5754084199372789682, guid: cbc31a08bbed344d89fce06e98b259a4, type: 3}
@@ -7532,7 +7552,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -1706859863224451047, guid: cbc31a08bbed344d89fce06e98b259a4, type: 3}
 --- !u!1001 &6434369703343200312
@@ -7587,6 +7607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: l_finger
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 125b5fc25a566b4ce9cc63ba81bd5650, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -7511558181221131132, guid: 125b5fc25a566b4ce9cc63ba81bd5650, type: 3}
     - {fileID: -5754084199372789682, guid: 125b5fc25a566b4ce9cc63ba81bd5650, type: 3}
@@ -7621,7 +7645,7 @@ MeshCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 1151293911155818299, guid: 125b5fc25a566b4ce9cc63ba81bd5650, type: 3}
 --- !u!4 &6827950007009935315 stripped
@@ -7680,6 +7704,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cbc31a08bbed344d89fce06e98b259a4, type: 3}
       propertyPath: m_Name
       value: l_finger_tip
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cbc31a08bbed344d89fce06e98b259a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7742,6 +7770,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: cbc31a08bbed344d89fce06e98b259a4, type: 3}
       propertyPath: m_Name
       value: l_finger_tip
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cbc31a08bbed344d89fce06e98b259a4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
