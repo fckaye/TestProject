@@ -131,7 +131,7 @@ FixedJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!1 &108507572514245683
@@ -680,8 +680,8 @@ HingeJoint:
     force: 0
     freeSpin: 0
   m_UseLimits: 1
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
+  m_ExtendedLimits: 1
+  m_UseAcceleration: 1
   m_Limits:
     min: -31.398087
     max: 0
@@ -691,7 +691,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!114 &3663467645256244118
@@ -1129,8 +1129,8 @@ HingeJoint:
     force: 0
     freeSpin: 0
   m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
+  m_ExtendedLimits: 1
+  m_UseAcceleration: 1
   m_Limits:
     min: 0
     max: 0
@@ -1140,7 +1140,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!114 &3170334406469884542
@@ -1300,8 +1300,8 @@ HingeJoint:
     force: 0
     freeSpin: 0
   m_UseLimits: 1
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
+  m_ExtendedLimits: 1
+  m_UseAcceleration: 1
   m_Limits:
     min: -31.398087
     max: 0
@@ -1311,7 +1311,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!114 &6961491164263856115
@@ -1471,7 +1471,7 @@ FixedJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!1 &1849211682090381678
@@ -2497,8 +2497,8 @@ HingeJoint:
     force: 0
     freeSpin: 0
   m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
+  m_ExtendedLimits: 1
+  m_UseAcceleration: 1
   m_Limits:
     min: 0
     max: 0
@@ -2508,7 +2508,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!114 &111907550421671724
@@ -2618,7 +2618,7 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 1
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
+  InertiaTensor: {x: 0.0010666667, y: 0.0010666667, z: 0.0010666667}
   InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
   UrdfMass: 1
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
@@ -2652,7 +2652,7 @@ FixedJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!1 &3759620348222627445
@@ -2974,7 +2974,7 @@ FixedJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!1 &4040565010608608252
@@ -3448,8 +3448,8 @@ HingeJoint:
     force: 0
     freeSpin: 0
   m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
+  m_ExtendedLimits: 1
+  m_UseAcceleration: 1
   m_Limits:
     min: 0
     max: 0
@@ -3459,7 +3459,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!114 &8991627044782814926
@@ -3767,8 +3767,8 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 0.05
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
-  InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
+  InertiaTensor: {x: 0.00044500813, y: 0.00044944574, z: 0.000007841336}
+  InertiaTensorRotation: {x: 0.000018429044, y: 0.020897686, z: 0.000039044644, w: -0.9997816}
   UrdfMass: 0.05
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
   UrdfInertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
@@ -3801,7 +3801,7 @@ FixedJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!1 &4621791141648194667
@@ -4192,8 +4192,8 @@ HingeJoint:
     force: 0
     freeSpin: 0
   m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
+  m_ExtendedLimits: 1
+  m_UseAcceleration: 1
   m_Limits:
     min: 0
     max: 0
@@ -4203,7 +4203,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!114 &7667605530847146840
@@ -4576,7 +4576,7 @@ FixedJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!1 &6149661017335470203
@@ -5323,7 +5323,7 @@ FixedJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!1 &7074760150268013826
@@ -6968,8 +6968,8 @@ HingeJoint:
     force: 0
     freeSpin: 0
   m_UseLimits: 0
-  m_ExtendedLimits: 0
-  m_UseAcceleration: 0
+  m_ExtendedLimits: 1
+  m_UseAcceleration: 1
   m_Limits:
     min: 0
     max: 0
@@ -6979,7 +6979,7 @@ HingeJoint:
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
-  m_EnablePreprocessing: 1
+  m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
 --- !u!114 &1953316256688541653
