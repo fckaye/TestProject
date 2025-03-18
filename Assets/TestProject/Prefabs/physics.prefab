@@ -1001,9 +1001,8 @@ GameObject:
   - component: {fileID: 8546984692227634042}
   - component: {fileID: 2487774906416664309}
   - component: {fileID: 3170334406469884542}
-  - component: {fileID: 2562064342285143635}
-  - component: {fileID: 4891413990397271348}
-  - component: {fileID: 1324405092843095075}
+  - component: {fileID: 3594898644522944391}
+  - component: {fileID: 1380160933429015084}
   m_Layer: 6
   m_Name: right_front_wheel
   m_TagString: Untagged
@@ -1085,8 +1084,8 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 1
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 1, y: 1, z: 1}
-  InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
+  InertiaTensor: {x: 0.00057480764, y: 0.002270961, z: 0.002270961}
+  InertiaTensorRotation: {x: 0, y: 0, z: 0.000023156404, w: 1}
   UrdfMass: 1
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
   UrdfInertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
@@ -1126,10 +1125,10 @@ HingeJoint:
     spring: 0
     damper: 0
     targetPosition: 0
-  m_UseMotor: 0
+  m_UseMotor: 1
   m_Motor:
     targetVelocity: 0
-    force: 0
+    force: 0.5
     freeSpin: 0
   m_UseLimits: 0
   m_ExtendedLimits: 1
@@ -1158,7 +1157,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9f5f6dd161c7046b5ed3a1217ad6c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2562064342285143635
+--- !u!114 &3594898644522944391
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1167,23 +1166,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1559728150840688065}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09af4966697d6494bad7e32ab5c99288, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a25a61540546f54aaf36aec84836172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4891413990397271348
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1559728150840688065}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4536be8982e96d4f9a393a70b47ce83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxVelocity: 1
---- !u!114 &1324405092843095075
+  MaxVelocity: 900
+--- !u!114 &1380160933429015084
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2411,9 +2398,8 @@ GameObject:
   - component: {fileID: 4690803386014777328}
   - component: {fileID: 7809976786120057114}
   - component: {fileID: 111907550421671724}
-  - component: {fileID: 2798412070467468438}
-  - component: {fileID: 5665565939347365742}
-  - component: {fileID: 6566542628650862596}
+  - component: {fileID: 6164647069198037520}
+  - component: {fileID: 3185518941786489377}
   m_Layer: 6
   m_Name: right_back_wheel
   m_TagString: Untagged
@@ -2495,8 +2481,8 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 1
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 1, y: 1, z: 1}
-  InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
+  InertiaTensor: {x: 0.00057480764, y: 0.002270961, z: 0.002270961}
+  InertiaTensorRotation: {x: 0, y: 0, z: 0.000023156404, w: 1}
   UrdfMass: 1
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
   UrdfInertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
@@ -2536,10 +2522,10 @@ HingeJoint:
     spring: 0
     damper: 0
     targetPosition: 0
-  m_UseMotor: 0
+  m_UseMotor: 1
   m_Motor:
     targetVelocity: 0
-    force: 0
+    force: 0.5
     freeSpin: 0
   m_UseLimits: 0
   m_ExtendedLimits: 1
@@ -2568,7 +2554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9f5f6dd161c7046b5ed3a1217ad6c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &2798412070467468438
+--- !u!114 &6164647069198037520
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2577,23 +2563,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 3630646172063369171}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09af4966697d6494bad7e32ab5c99288, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a25a61540546f54aaf36aec84836172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5665565939347365742
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3630646172063369171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4536be8982e96d4f9a393a70b47ce83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxVelocity: 1
---- !u!114 &6566542628650862596
+  MaxVelocity: 900
+--- !u!114 &3185518941786489377
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3403,9 +3377,8 @@ GameObject:
   - component: {fileID: 3745899632988176009}
   - component: {fileID: 6457284058886533610}
   - component: {fileID: 8991627044782814926}
-  - component: {fileID: 5760089793983372230}
-  - component: {fileID: 5795123057148195968}
-  - component: {fileID: 4771791653830384080}
+  - component: {fileID: 8565610585213494984}
+  - component: {fileID: 5924075767131237109}
   m_Layer: 6
   m_Name: left_back_wheel
   m_TagString: Untagged
@@ -3528,10 +3501,10 @@ HingeJoint:
     spring: 0
     damper: 0
     targetPosition: 0
-  m_UseMotor: 0
+  m_UseMotor: 1
   m_Motor:
     targetVelocity: 0
-    force: 0
+    force: 0.5
     freeSpin: 0
   m_UseLimits: 0
   m_ExtendedLimits: 1
@@ -3560,7 +3533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9f5f6dd161c7046b5ed3a1217ad6c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5760089793983372230
+--- !u!114 &8565610585213494984
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3569,23 +3542,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4275520923935184118}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09af4966697d6494bad7e32ab5c99288, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a25a61540546f54aaf36aec84836172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5795123057148195968
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4275520923935184118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4536be8982e96d4f9a393a70b47ce83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxVelocity: 1
---- !u!114 &4771791653830384080
+  MaxVelocity: 900
+--- !u!114 &5924075767131237109
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4190,9 +4151,8 @@ GameObject:
   - component: {fileID: 4186677969897241565}
   - component: {fileID: 2362330073355464326}
   - component: {fileID: 7667605530847146840}
-  - component: {fileID: 5891723643153746084}
-  - component: {fileID: 8057385776670628422}
-  - component: {fileID: 4749547984467217931}
+  - component: {fileID: 3065230368726742708}
+  - component: {fileID: 3991954602661871112}
   m_Layer: 6
   m_Name: left_front_wheel
   m_TagString: Untagged
@@ -4274,8 +4234,8 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 1
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 1, y: 1, z: 1}
-  InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
+  InertiaTensor: {x: 0.00057480764, y: 0.002270961, z: 0.002270961}
+  InertiaTensorRotation: {x: 0, y: 0, z: 0.000023156404, w: 1}
   UrdfMass: 1
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
   UrdfInertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
@@ -4315,10 +4275,10 @@ HingeJoint:
     spring: 0
     damper: 0
     targetPosition: 0
-  m_UseMotor: 0
+  m_UseMotor: 1
   m_Motor:
     targetVelocity: 0
-    force: 0
+    force: 0.5
     freeSpin: 0
   m_UseLimits: 0
   m_ExtendedLimits: 1
@@ -4347,7 +4307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe9f5f6dd161c7046b5ed3a1217ad6c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5891723643153746084
+--- !u!114 &3065230368726742708
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4356,23 +4316,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5018436800585405377}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09af4966697d6494bad7e32ab5c99288, type: 3}
+  m_Script: {fileID: 11500000, guid: 0a25a61540546f54aaf36aec84836172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8057385776670628422
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5018436800585405377}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4536be8982e96d4f9a393a70b47ce83, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MaxVelocity: 1
---- !u!114 &4749547984467217931
+  MaxVelocity: 900
+--- !u!114 &3991954602661871112
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
