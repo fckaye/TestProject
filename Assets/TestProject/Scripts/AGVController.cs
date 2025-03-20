@@ -6,9 +6,13 @@ namespace RosSharp.Control
     {
         public GameObject wheel1;
         public GameObject wheel2;
+        public GameObject wheel3;
+        public GameObject wheel4;
         
-        private HingeJoint leftWheelJoint;
-        private HingeJoint rightWheelJoint;
+        private HingeJoint leftFrontWheelJoint;
+        private HingeJoint rightFrontWheelJoint;
+        private HingeJoint leftBackWheelJoint;
+        private HingeJoint rightBackWheelJoint;
 
         public float maxLinearSpeed = 2; //  m/s
         public float maxRotationalSpeed = 1;//
@@ -25,23 +29,20 @@ namespace RosSharp.Control
 
         void Start()
         {
-            leftWheelJoint = wheel1.GetComponent<HingeJoint>();
-            rightWheelJoint = wheel2.GetComponent<HingeJoint>();
-            SetParameters(leftWheelJoint);
-            SetParameters(rightWheelJoint);
+            leftFrontWheelJoint = wheel1.GetComponent<HingeJoint>();
+            rightFrontWheelJoint = wheel2.GetComponent<HingeJoint>();
+            leftBackWheelJoint = wheel3.GetComponent<HingeJoint>();
+            rightBackWheelJoint = wheel4.GetComponent<HingeJoint>();
+            
+            SetParameters(leftFrontWheelJoint);
+            SetParameters(rightFrontWheelJoint);
+            SetParameters(leftBackWheelJoint);
+            SetParameters(rightBackWheelJoint);
         }
 
         void FixedUpdate()
         {
             KeyBoardUpdate();
-        }
-
-        private void SetParameters(ArticulationBody joint)
-        {
-            ArticulationDrive drive = joint.xDrive;
-            drive.forceLimit = forceLimit;
-            drive.damping = damping;
-            joint.xDrive = drive;
         }
 
         private void SetParameters(HingeJoint joint)
@@ -55,20 +56,6 @@ namespace RosSharp.Control
             spring.damper = damping;
             joint.spring = spring;
             joint.useSpring = true;
-        }
-
-        private void SetSpeed(ArticulationBody joint, float wheelSpeed = float.NaN)
-        {
-            ArticulationDrive drive = joint.xDrive;
-            if (float.IsNaN(wheelSpeed))
-            {
-                drive.targetVelocity = ((2 * maxLinearSpeed) / wheelRadius) * Mathf.Rad2Deg;
-            }
-            else
-            {
-                drive.targetVelocity = wheelSpeed;
-            }
-            joint.xDrive = drive;
         }
 
         private void SetSpeed(HingeJoint joint, float wheelSpeed = float.NaN)
@@ -119,17 +106,6 @@ namespace RosSharp.Control
             RobotInput(inputSpeed, inputRotationSpeed);
         }
 
-
-        private void ROSUpdate()
-        {
-            if (Time.time - lastCmdReceived > ROSTimeout)
-            {
-                rosLinear = 0f;
-                rosAngular = 0f;
-            }
-            RobotInput(rosLinear, -rosAngular);
-        }
-
         private void RobotInput(float speed, float rotSpeed) // m/s and rad/s
         {
             if (speed > maxLinearSpeed)
@@ -153,8 +129,10 @@ namespace RosSharp.Control
                 wheel1Rotation *= Mathf.Rad2Deg;
                 wheel2Rotation *= Mathf.Rad2Deg;
             }
-            SetSpeed(leftWheelJoint, wheel1Rotation);
-            SetSpeed(rightWheelJoint, wheel2Rotation);
+            SetSpeed(leftFrontWheelJoint, wheel1Rotation);
+            SetSpeed(rightFrontWheelJoint, wheel2Rotation);
+            SetSpeed(leftBackWheelJoint, wheel1Rotation);
+            SetSpeed(rightBackWheelJoint, wheel2Rotation);
         }
     }
 }
