@@ -1164,7 +1164,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559728150840688065}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a25a61540546f54aaf36aec84836172, type: 3}
   m_Name: 
@@ -1177,7 +1177,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1559728150840688065}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff16a99a29425454399ba8d6b5934e51, type: 3}
   m_Name: 
@@ -1465,8 +1465,8 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 10
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
-  InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
+  InertiaTensor: {x: 1.2333332, y: 0.041666657, z: 1.2083333}
+  InertiaTensorRotation: {x: -0.0000052997025, y: 0, z: 0, w: 1}
   UrdfMass: 10
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
   UrdfInertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
@@ -1701,6 +1701,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4445082121035719016}
   - component: {fileID: 1812572182333692354}
+  - component: {fileID: 7163530759429514064}
   m_Layer: 6
   m_Name: physics
   m_TagString: Untagged
@@ -1738,6 +1739,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FilePath: 
+--- !u!114 &7163530759429514064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2359184789960630437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4756314852ae5aa4fa437c5b0eadbb6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wheel1: {fileID: 5018436800585405377}
+  wheel2: {fileID: 1559728150840688065}
+  maxLinearSpeed: 1
+  maxRotationalSpeed: 1
+  wheelRadius: 0.033
+  trackWidth: 0.288
+  forceLimit: 10
+  damping: 10
+  ROSTimeout: 0.5
 --- !u!1 &2456314951978619620
 GameObject:
   m_ObjectHideFlags: 0
@@ -2561,7 +2583,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3630646172063369171}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a25a61540546f54aaf36aec84836172, type: 3}
   m_Name: 
@@ -2574,7 +2596,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3630646172063369171}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff16a99a29425454399ba8d6b5934e51, type: 3}
   m_Name: 
@@ -3540,7 +3562,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4275520923935184118}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a25a61540546f54aaf36aec84836172, type: 3}
   m_Name: 
@@ -3553,7 +3575,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4275520923935184118}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff16a99a29425454399ba8d6b5934e51, type: 3}
   m_Name: 
@@ -4314,7 +4336,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5018436800585405377}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0a25a61540546f54aaf36aec84836172, type: 3}
   m_Name: 
@@ -4327,7 +4349,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5018436800585405377}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff16a99a29425454399ba8d6b5934e51, type: 3}
   m_Name: 
@@ -5583,7 +5605,7 @@ MonoBehaviour:
   rigidbodyDataSource: 0
   Mass: 10
   CenterOfMass: {x: 0, y: 0, z: 0}
-  InertiaTensor: {x: 0.001, y: 0.001, z: 0.001}
+  InertiaTensor: {x: 1, y: 1, z: 1}
   InertiaTensorRotation: {x: 0, y: -0, z: -0, w: 1}
   UrdfMass: 10
   UrdfCenterOfMass: {x: 0, y: 0, z: 0}
